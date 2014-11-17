@@ -11,7 +11,8 @@ a:hover, {
 }
 
 .banner {
-	background-color: #BB4D3E;
+	background-color: #C4634F;
+	margin-top: -10px;
 	margin-bottom: 30px;
 }
 
@@ -21,7 +22,7 @@ body {
 	background-color: #132139;
 	font-size: 16px;
 	margin-left: 20px;
-	background: url("../img/footer_lodyas.png")
+	background: url("../img/footer_lodyas.png");
 }
 
 .contact {
@@ -30,7 +31,7 @@ body {
 }
 
 .container {
-	background-color: #F2F0D9;
+	background-color: #F5EDE0;
 }
 
 .education {
@@ -55,7 +56,7 @@ h2 {
 	font-family: 'Cinzel Decorative', serif; 
 	font-weight: 400;
 	font-size: 20px;
-	color: #24456B;
+	color: #25356F;
 	margin-top: -10px;
 	margin-left: 5px;
 	margin-bottom: 10px;
@@ -124,6 +125,7 @@ img {
 	text-align: right;
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-bottom: -15px;
 
 }
 
@@ -152,5 +154,5 @@ ul li {
 	color: #363636;
 	text-decoration: none;
 	list-style: none;
-	margin-left: -15px;
+	margin-left: -20px;
 }
