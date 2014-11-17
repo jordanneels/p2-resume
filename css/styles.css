@@ -2,7 +2,6 @@
 a {
 	text-decoration: none;
 	list-style: none;
-	margin: 7px;
 	color: #363636;
 	text-align: right;
 }
@@ -12,15 +11,17 @@ a:hover, {
 }
 
 .banner {
-	background-color: #C8705B;
+	background-color: #BB4D3E;
 	margin-bottom: 30px;
 }
 
 body {
 	font-family: 'Calibri';
+	color: #363636;
 	background-color: #132139;
 	font-size: 16px;
-	background: url("../img/footer_lodyas.png");
+	margin-left: 20px;
+	background: url("../img/footer_lodyas.png")
 }
 
 .contact {
@@ -43,36 +44,87 @@ body {
 
 h1 {
 	color: #363636;	
-	font-family: 'Cinzel', serif;
-	font-size: 40px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: 700;
+	font-size: 36px;
 	text-align: center;
 	margin-bottom: 0px;
 }
 
 h2 {
-	font-family: 'Cinzel', serif; font-weight: 400;
-	font-size: 22px;
+	font-family: 'Cinzel Decorative', serif; 
+	font-weight: 400;
+	font-size: 20px;
 	color: #24456B;
 	margin-top: -10px;
-	margin-left: 10px;
-	margin-bottom: -10px;
+	margin-left: 5px;
+	margin-bottom: 10px;
 }
 
 h3 {
 	color: #2B8261;
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
+	margin-left: 20px;
+}
+
+h4 {
+	font-family: 'Cinzel Decorative', serif; font-weight: 400;
+	color: black;
+	font-size: 16px;
+	margin-top: 0em;
+	margin-bottom: -.75em;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+
+img {
+	padding: 1px;
+	border: 2px solid #021a40;
+	border-radius: 40px;
+	width: 130px;
+	height: 160px;
+	margin-top: -1em;
+	margin-bottom: -.5em;
 	margin-left: 15px;
-	margin-bottom: 10px;
+}
+
+.links_top {
+	color: black;
+	font-family: 'Cinzel Decorative', serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: -5em;
+
+}
+
+.major_minor {
+	font-size: 23px;
+	font-family: 'Cinzel Decorative', serif; font-weight: 400;
+	color: #363636;
+	margin-bottom: -1.5em;
+	margin-left: 10px;
+}
+
+
+@media (max-width: 1680;) {
+	body {
+		font-size: 16px;
+	}
+	.container {
+		max-width: 70%;
+	}
 }
 
 .nav_top {
 	color: #132139;
 	text-align: right;
-	font-family: 'Droid Serif', serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 14px;
+
 }
 
 p {
@@ -81,16 +133,17 @@ p {
 }
 
 .panel {
-	color: #363636;
+	color: #132139;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-weight: bold;
 	margin-left: 20px;
 }
 
+.index {
+	color: #BB4D3E;
+}
 .subtitle {
 	color: #fff;
-	font-family: 'Droid Serif', serif;
 	text-align: center;
 	font-size: 14px;
 }
@@ -99,5 +152,5 @@ ul li {
 	color: #363636;
 	text-decoration: none;
 	list-style: none;
-	margin-left: -20px;
+	margin-left: -15px;
 }
